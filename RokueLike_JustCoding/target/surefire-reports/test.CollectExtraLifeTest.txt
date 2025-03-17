@@ -1,0 +1,112 @@
+-------------------------------------------------------------------------------
+Test set: test.CollectExtraLifeTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.796 s <<< FAILURE! - in test.CollectExtraLifeTest
+test.CollectExtraLifeTest.testCollectExtraLife_LabelNotVisible  Time elapsed: 0.664 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class domain.Player.
+
+If you're not sure why you're getting this error, please open an issue on GitHub.
+
+
+Java               : 21
+JVM vendor name    : Homebrew
+JVM vendor version : 21.0.2
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 21.0.2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 15.2
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class domain.Player, interface java.io.Serializable, class java.lang.Object]
+	at test.CollectExtraLifeTest.setUp(CollectExtraLifeTest.java:26)
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [class domain.Player, interface java.io.Serializable, class java.lang.Object]
+	at test.CollectExtraLifeTest.setUp(CollectExtraLifeTest.java:26)
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+	at test.CollectExtraLifeTest.setUp(CollectExtraLifeTest.java:26)
+Caused by: java.lang.IllegalArgumentException: Java 21 (65) is not supported by the current version of Byte Buddy which officially supports Java 20 (64) - update Byte Buddy or set net.bytebuddy.experimental as a VM property
+	at test.CollectExtraLifeTest.setUp(CollectExtraLifeTest.java:26)
+
+test.CollectExtraLifeTest.testCollectExtraLife_PlayerNotInitialized  Time elapsed: 0.065 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class domain.Player.
+
+If you're not sure why you're getting this error, please open an issue on GitHub.
+
+
+Java               : 21
+JVM vendor name    : Homebrew
+JVM vendor version : 21.0.2
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 21.0.2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 15.2
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class domain.Player, interface java.io.Serializable, class java.lang.Object]
+	at test.CollectExtraLifeTest.setUp(CollectExtraLifeTest.java:26)
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [class domain.Player, interface java.io.Serializable, class java.lang.Object]
+	at test.CollectExtraLifeTest.setUp(CollectExtraLifeTest.java:26)
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+	at test.CollectExtraLifeTest.setUp(CollectExtraLifeTest.java:26)
+Caused by: java.lang.IllegalArgumentException: Java 21 (65) is not supported by the current version of Byte Buddy which officially supports Java 20 (64) - update Byte Buddy or set net.bytebuddy.experimental as a VM property
+	at test.CollectExtraLifeTest.setUp(CollectExtraLifeTest.java:26)
+
+test.CollectExtraLifeTest.testCollectExtraLife_NormalCase  Time elapsed: 0.056 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class domain.Player.
+
+If you're not sure why you're getting this error, please open an issue on GitHub.
+
+
+Java               : 21
+JVM vendor name    : Homebrew
+JVM vendor version : 21.0.2
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 21.0.2
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 15.2
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class domain.Player, interface java.io.Serializable, class java.lang.Object]
+	at test.CollectExtraLifeTest.setUp(CollectExtraLifeTest.java:26)
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [class domain.Player, interface java.io.Serializable, class java.lang.Object]
+	at test.CollectExtraLifeTest.setUp(CollectExtraLifeTest.java:26)
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+	at test.CollectExtraLifeTest.setUp(CollectExtraLifeTest.java:26)
+Caused by: java.lang.IllegalArgumentException: Java 21 (65) is not supported by the current version of Byte Buddy which officially supports Java 20 (64) - update Byte Buddy or set net.bytebuddy.experimental as a VM property
+	at test.CollectExtraLifeTest.setUp(CollectExtraLifeTest.java:26)
+
